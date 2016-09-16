@@ -1,5 +1,5 @@
 use futures::BoxFuture;
 use Value;
-use Error;
+use CqlError;
 
-pub type Response = BoxFuture<Value, Error>;
+pub type Response<T> = BoxFuture<T, CqlError>;

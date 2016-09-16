@@ -1,11 +1,12 @@
 [package]
-name = "tokio_cassandra"
+name = "tokio-cql"
 version = "0.1.0"
 authors = ["Tom Burdick <thomas.burdick@gmail.com>"]
 
 [dependencies]
-futures = { git = "https://github.com/alexcrichton/futures-rs" }
 log = "0.3.6"
+cql-protocol = { git = "https://github.com/bfrog/cql-protocol" }
+futures = { git = "https://github.com/alexcrichton/futures-rs" }
 tokio-proto = { git = "https://github.com/tokio-rs/tokio-proto" }
 tokio-core = { git = "https://github.com/tokio-rs/tokio-core" }
 

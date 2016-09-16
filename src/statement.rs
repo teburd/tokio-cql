@@ -1,6 +1,6 @@
 use futures::{Future, done};
 use Response;
-use Error;
+use CqlError;
 
 pub struct Statement {
 }
